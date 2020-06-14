@@ -13,7 +13,7 @@ public class CRUDDemo {
 		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Employee.class)
 				.buildSessionFactory();
 
-		// create session
+		// create session //testing comment
 		Session session = factory.getCurrentSession();
 
 		try {
